@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+	background: linear-gradient(10deg,#9C27B0,#03A9F4);
+}
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;
+	border-radius: 10px;
+	width:390px;
+	height:400px;
+	
+}
+.text{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+.container form{
+	margin: 10px;
+	padding: 20px;
+}
+form .data{
+	position:relative;
+	border-bottom: 1px solid grey;
+	margin: 10px 0;
+}
+.data input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding: 5px 5px;
+	border: none;
+	outline: none;
+	
+	
+}
+.pass{
+	margin-top: 30px;
+}
+.butn button{
+	margin-top: 30px;
+	margin-left: 70px;
+	background-color: #673AB7;
+	width: 50%;
+	height: 40px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ a:hover{
+	transition: .5s;
+	color: #3F51B5;
+}
+.data input:hover{
+	transition: .5s;
+	color: blue;
+
+}
+.butn button:hover{
+ transition: .5s;
+ color: #d5dbdd;
+ border: 2px solid #3498db;
+}
+.sign{
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 16px;
+}
